@@ -50,6 +50,11 @@ const ITEMS = [
     title: "About Me",
     image: <IoPersonCircle className={classes.image} />,
   },
+  {
+    href: "https://portfolio-vert-three.vercel.app/",
+    title: "Growth record",
+    image: <IoPersonCircle className={classes.image} />,
+  },
 ];
 // リンクタグの中にはチルドレンは一つ、っていうルールなのね。。
 export function Links(item) {
