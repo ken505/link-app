@@ -21,13 +21,16 @@ export default function Home() {
         <div className={classes.border}>
           <h2 className={classes.title}>Self introduction</h2>
           <p className={classes.discription}>
-            I'm learning React, Next.js, Typescript and Tailwindcss to become an
-            front-end engineer.🧑🏻‍💻
+            I'm into, Next.js, supabase, TypeScript, and Tailwindcss 🚀
+            <br />
+            I focus on curiosity, passion, and Range of perspectives 📛
+            <br />
+            Belonging to IT_KINGDOM, PROGRESS 🦄
           </p>
         </div>
       </div>
 
-      <div className={classes.aTagGrid}>
+      {/* <div className={classes.aTagGrid}>
         <div className={classes.border}>
           <h2 className={classes.title}>Self introduction</h2>
           <ul className={classes.discription}>
@@ -44,14 +47,20 @@ export default function Home() {
             <li>⭐️受諾：ありのままの自分を受け入れる。</li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       <div className={classes.aTagGrid}>
         <div className={classes.border}>
           <h2 className={classes.title}>The app I made</h2>
           <ul className={classes.discription}>
             <li>
-              <a href="https://counter-app-theta.vercel.app/">Todo-app ✍️</a>
+              <a href="https://manga-management-1-1.vercel.app/">Manga-list 📖</a>
+            </li>
+            <li>
+              <a href="https://next-todo-2-0.vercel.app/">Todo-app 2 ✍️</a>
+            </li>
+            <li>
+              <a href="https://counter-app-theta.vercel.app/">Todo-app 1 ✍️</a>
             </li>
             <li>
               <a href="https://my-auth-rho.vercel.app/">My-Auth 🔑</a>
@@ -92,7 +101,6 @@ export default function Home() {
           <ul className={classes.discription}>
             <li>Cat 🐈</li>
             <li>Formula 1 & Lewis Hamilton 🏎</li>
-            <li>billie eilish</li>
             <li>Mac 💻</li>
             <ul>
               game player🕹:

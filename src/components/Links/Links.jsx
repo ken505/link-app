@@ -8,6 +8,16 @@ import { NoteSvg } from "src/components/Links/Svgicons/NoteSvg";
 
 const ITEMS = [
   {
+    href: "https://blueprint-gamma.vercel.app/",
+    title: "My Vision and Personality",
+    image: <IoPersonCircle className={classes.image} />,
+  },
+  {
+    href: "https://portfolio-vert-three.vercel.app/",
+    title: "Growth record",
+    image: <IoPersonCircle className={classes.image} />,
+  },
+  {
     href: "https://twitter.com/ken_tsx",
     title: "Twitter",
     image: <FaTwitter className={classes.image} />,
@@ -45,14 +55,10 @@ const ITEMS = [
     image: <GiCat className={classes.image} />,
     description: "⚠️ Wi-Fi 環境下での閲覧をお勧めします ⚠️",
   },
+
   {
     href: "/about",
-    title: "About Me",
-    image: <IoPersonCircle className={classes.image} />,
-  },
-  {
-    href: "https://portfolio-vert-three.vercel.app/",
-    title: "Growth record",
+    title: "Self Introduction",
     image: <IoPersonCircle className={classes.image} />,
   },
 ];
