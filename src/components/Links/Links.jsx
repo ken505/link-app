@@ -9,7 +9,7 @@ import { NoteSvg } from "src/components/Links/Svgicons/NoteSvg";
 const ITEMS = [
   {
     href: "https://blueprint-gamma.vercel.app/",
-    title: "My Vision and Personality",
+    title: "My Vision",
     image: <IoPersonCircle className={classes.image} />,
   },
   {
