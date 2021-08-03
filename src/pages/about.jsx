@@ -54,7 +54,9 @@ export default function Home() {
           <h2 className={classes.title}>The app I made</h2>
           <ul className={classes.discription}>
             <li>
-              <a href="https://manga-management-1-1.vercel.app/">Manga-list 📖</a>
+              <a href="https://manga-management-1-1.vercel.app/">
+                Manga-list 📖
+              </a>
             </li>
             <li>
               <a href="https://next-todo-2-0.vercel.app/">Todo-app 2 ✍️</a>
@@ -67,6 +69,11 @@ export default function Home() {
             </li>
             <li>
               <a href="https://count-app.vercel.app/">Count-App 🔢</a>
+            </li>
+            <li>
+              <a href="https://practice-api-operations.vercel.app/">
+                Hit json p-h 🏹
+              </a>
             </li>
           </ul>
         </div>
