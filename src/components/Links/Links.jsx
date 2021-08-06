@@ -61,6 +61,11 @@ const ITEMS = [
     title: "Self Introduction",
     image: <IoPersonCircle className={classes.image} />,
   },
+  {
+    href: "/newThings",
+    title: "New things",
+    image: <IoPersonCircle className={classes.image} />,
+  },
 ];
 // リンクタグの中にはチルドレンは一つ、っていうルールなのね。。
 export function Links(item) {
