@@ -22,8 +22,11 @@ export default function NewThings() {
           <h2 className={classes.title}>The app I made</h2>
           <ul className={classes.discription}>
             <li>
-              <a href="https://dnd-kit.vercel.app/">
-                dnd - kit🤖
+              <a href="https://dnd-kit.vercel.app/">dnd - kit 🤖</a>
+            </li>
+            <li>
+              <a href="https://json-server-pearl.vercel.app/">
+                Creating a mockapi with json-server 📦
               </a>
             </li>
           </ul>
