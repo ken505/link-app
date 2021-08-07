@@ -25,6 +25,9 @@ export default function NewThings() {
               <a href="https://dnd-kit.vercel.app/">dnd - kit 🤖</a>
             </li>
             <li>
+              <a href="https://react-countdown-chi.vercel.app/">React-countdown-clircle-timer ⏰</a>
+            </li>
+            <li>
               <a href="https://json-server-pearl.vercel.app/">
                 Creating a mockapi with json-server 📦
               </a>
