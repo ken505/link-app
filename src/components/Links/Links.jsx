@@ -8,6 +8,11 @@ import { NoteSvg } from "src/components/Links/Svgicons/NoteSvg";
 
 const ITEMS = [
   {
+    href: "https://html-css-1-orpin.vercel.app/",
+    title: "New HTML Site",
+    image: <IoPersonCircle className={classes.image} />,
+  },
+  {
     href: "https://blueprint-gamma.vercel.app/",
     title: "My Vision",
     image: <IoPersonCircle className={classes.image} />,
