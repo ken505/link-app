@@ -71,7 +71,7 @@ export default function Home() {
               <a href="https://count-app.vercel.app/">Count-App 🔢</a>
             </li>
             <li>
-              <a href="https://practice-api-operations.vercel.app/">
+              <a href="https://github.com/ken505/json-server">
                 Hit json p-h 🏹
               </a>
             </li>
