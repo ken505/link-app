@@ -1,76 +1,82 @@
 import Link from "next/link";
 import classes from "./Links.module.css";
-import { FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
-import { IoPersonCircle } from "react-icons/io5";
-import { GiCat } from "react-icons/gi";
-import { ZennSvg } from "src/components/Links/Svgicons/ZennSvg";
-import { NoteSvg } from "src/components/Links/Svgicons/NoteSvg";
+// import { FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+// import { IoPersonCircle } from "react-icons/io5";
+import { GiJumpAcross } from "react-icons/gi";
+// import { GiCat } from "react-icons/gi";
+// import { ZennSvg } from "src/components/Links/Svgicons/ZennSvg";
+// import { NoteSvg } from "src/components/Links/Svgicons/NoteSvg";
 
 const ITEMS = [
   {
-    href: "https://html-css-1-orpin.vercel.app/",
-    title: "New HTML Site",
-    image: <IoPersonCircle className={classes.image} />,
+    href: "https://link-app-3.vercel.app/",
+    title: "Jump new site",
+    image: <GiJumpAcross className={classes.image} />,
   },
-  {
-    href: "https://blueprint-gamma.vercel.app/",
-    title: "My Vision",
-    image: <IoPersonCircle className={classes.image} />,
-  },
-  {
-    href: "https://portfolio-vert-three.vercel.app/",
-    title: "Growth record",
-    image: <IoPersonCircle className={classes.image} />,
-  },
-  {
-    href: "https://twitter.com/ken_tsx",
-    title: "Twitter",
-    image: <FaTwitter className={classes.image} />,
-  },
-  {
-    href: "https://zenn.dev/ken505",
-    title: "Zenn",
-    image: <ZennSvg />,
-  },
-  {
-    href: "https://www.instagram.com/ken.tsx/",
-    title: "Instagram",
-    image: <FaInstagram className={classes.image} />,
-    description: "Account for  Cat photos",
-  },
-  {
-    href: "https://www.instagram.com/ken.pic505/",
-    title: "Instagram",
-    image: <FaInstagram className={classes.image} />,
-    description: "Account for Cat illustration",
-  },
-  {
-    href: "https://note.com/ken505",
-    title: "note",
-    image: <NoteSvg className={classes.image} />,
-  },
-  {
-    href: "https://github.com/ken505",
-    title: "Github",
-    image: <FaGithub className={classes.image} />,
-  },
-  {
-    href: "/photos",
-    title: "High-reso photos",
-    image: <GiCat className={classes.image} />,
-    description: "⚠️ Wi-Fi 環境下での閲覧をお勧めします ⚠️",
-  },
+  // {
+  //   href: "https://html-css-1-orpin.vercel.app/",
+  //   title: "New HTML Site",
+  //   image: <IoPersonCircle className={classes.image} />,
+  // },
+  // {
+  //   href: "https://blueprint-gamma.vercel.app/",
+  //   title: "My Vision",
+  //   image: <IoPersonCircle className={classes.image} />,
+  // },
+  // {
+  //   href: "https://portfolio-vert-three.vercel.app/",
+  //   title: "Growth record",
+  //   image: <IoPersonCircle className={classes.image} />,
+  // },
+  // {
+  //   href: "https://twitter.com/ken_tsx",
+  //   title: "Twitter",
+  //   image: <FaTwitter className={classes.image} />,
+  // },
+  // {
+  //   href: "https://zenn.dev/ken505",
+  //   title: "Zenn",
+  //   image: <ZennSvg />,
+  // },
+  // {
+  //   href: "https://www.instagram.com/ken.tsx/",
+  //   title: "Instagram",
+  //   image: <FaInstagram className={classes.image} />,
+  //   description: "Account for  Cat photos",
+  // },
+  // {
+  //   href: "https://www.instagram.com/ken.pic505/",
+  //   title: "Instagram",
+  //   image: <FaInstagram className={classes.image} />,
+  //   description: "Account for Cat illustration",
+  // },
+  // {
+  //   href: "https://note.com/ken505",
+  //   title: "note",
+  //   image: <NoteSvg className={classes.image} />,
+  // },
+  // {
+  //   href: "https://github.com/ken505",
+  //   title: "Github",
+  //   image: <FaGithub className={classes.image} />,
+  // },
+  // {
+  //   href: "/photos",
+  //   title: "High-reso photos",
+  //   image: <GiCat className={classes.image} />,
+  //   description: "⚠️ Wi-Fi 環境下での閲覧をお勧めします ⚠️",
+  // },
 
-  {
-    href: "/about",
-    title: "Self Introduction",
-    image: <IoPersonCircle className={classes.image} />,
-  },
-  {
-    href: "/newThings",
-    title: "New things",
-    image: <IoPersonCircle className={classes.image} />,
-  },
+  // {
+  //   href: "/about",
+  //   title: "Self Introduction",
+  //   image: <IoPersonCircle className={classes.image} />,
+  // },
+  // {
+  //   href: "/newThings",
+  //   title: "New things",
+  //   image: <IoPersonCircle className={classes.image} />,
+  // },
 ];
 // リンクタグの中にはチルドレンは一つ、っていうルールなのね。。
 export function Links(item) {

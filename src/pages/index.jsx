@@ -2,7 +2,7 @@ import classes from "../styles/Home.module.css";
 import { LocalHead } from "src/components/LocalHead/LocalHead";
 import { Headline } from "src/components/Headline/Headline";
 import { Links } from "src/components/Links/Links";
-import { SnsShare } from "src/components/SnsShare/SnsShare";
+// import { SnsShare } from "src/components/SnsShare/SnsShare";
 
 export default function Home() {
   return (
@@ -16,15 +16,15 @@ export default function Home() {
         ogImage="https://user-images.githubusercontent.com/68226398/118977762-7d737280-b9b1-11eb-891d-9c6e1cab1c2f.jpg"
       />
       {/* <h1 className="text-red-500">hello world</h1> */}
-      <Headline title="Welcome to Ken's links !" />
-      <img className={classes.icon} src="/images/ken.jpg" />
+      <Headline title="Sorry, Please go to the new site 🙇‍♂️" />
+      {/* <img className={classes.icon} src="/images/ken.jpg" /> */}
       <Links />
-      <div className={classes.SnsShareiconGridIndex}>
+      {/* <div className={classes.SnsShareiconGridIndex}>
         <SnsShare
           url={"https://link-app-pink.vercel.app/"}
           title={"Ken's links 🐈"}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
